@@ -40,10 +40,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.system{width:100%}
-.system-con{width:100%;display:flex;}
+.system{width:100%;height:100%}
+.system-con{width:100%;display:flex;min-height:600px;}
 .system-header{background:#ccc;height:60px;background: black}
 .system-side{width:20%;margin: 10px;}
-.system-main{width:80%;background:red;margin:10px;border: 1px solid #e6e6e6;border-radius: 8px;}
+.system-main{width:80%;background:#ccc;margin:10px;border: 1px solid #e6e6e6;border-radius: 8px;}
 
 </style>

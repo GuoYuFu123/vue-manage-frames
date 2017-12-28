@@ -22,4 +22,6 @@ img{display:block;border:0;}
 
 html ,body {background:#eee;height: 100%;width: 100% }
 
+#app{height:100%}
+
 </style>

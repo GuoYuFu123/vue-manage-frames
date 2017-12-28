@@ -1,6 +1,6 @@
 <template>
     <div class = "header">
-        <h1>XX管理系统</h1>
+        <h1>XXXXXXXXX系统</h1>
 
         <div class = "user-box">
             <el-dropdown trigger="click" @command="handerUser">

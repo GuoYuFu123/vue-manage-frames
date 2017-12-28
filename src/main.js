@@ -8,6 +8,19 @@ import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+// 引入echarts
+import echarts from 'echarts/lib/echarts';
+
+import 'echarts/lib/chart/pie';              //饼图
+import 'echarts/lib/chart/radar';            //雷达图
+import 'echarts/lib/chart/bar';              //条形图
+import 'echarts/lib/chart/line';             //线图
+import 'echarts/lib/component/title';
+import 'echarts/lib/component/legend';
+import 'echarts/lib/component/toolbox';
+import 'echarts/lib/component/markPoint';
+import 'echarts/lib/component/tooltip';
+
 // 注册Element
 Vue.use(ElementUI)
 
